@@ -168,7 +168,6 @@ class Player {
   takeItem(item) {
     if (this.getPack().length < 3) {
       this._pack.push(item);
-      console.log(item);
       return true;
     } else {
       console.log("Your pack is full");
